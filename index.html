@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gaana Guru</title>
+  <!-- Added to the home screen, the game opens fullscreen without browser bars (iOS and Android). -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Gaana Guru">
+  <meta name="theme-color" content="#3B0D1C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Baloo+2:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="game"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+
+  <script src="js/config/GameConfig.js"></script>
+  <script src="js/config/Theme.js"></script>
+  <script src="js/config/Themes.js"></script>
+  <script src="js/config/Layout.js"></script>
+  <script src="js/config/Studio.js"></script>
+  <script src="js/data/wheelData.js"></script>
+  <script src="js/data/songDeck.js"></script>
+  <script src="js/core/Rng.js"></script>
+  <script src="js/core/DailyClock.js"></script>
+  <script src="js/core/SaveStore.js"></script>
+  <script src="js/core/EmojiCodes.js"></script>
+  <script src="js/core/SongPicker.js"></script>
+  <script src="js/core/RunState.js"></script>
+  <script src="js/core/RunSaver.js"></script>
+  <script src="js/core/Settings.js"></script>
+  <script src="js/core/Fullscreen.js"></script>
+  <script src="js/audio/AudioHub.js"></script>
+  <script src="js/audio/Percussion.js"></script>
+  <script src="js/audio/Sfx.js"></script>
+  <script src="js/audio/ReelRoll.js"></script>
+  <script src="js/audio/Instruments.js"></script>
+  <script src="js/audio/FilmiScore.js"></script>
+  <script src="js/audio/styles/BgmKeherwa.js"></script>
+  <script src="js/audio/styles/BgmDisco.js"></script>
+  <script src="js/audio/styles/BgmBhangra.js"></script>
+  <script src="js/audio/styles/BgmLofi.js"></script>
+  <script src="js/ui/DomPopup.js"></script>
+  <script src="js/ui/ShareSheet.js"></script>
+  <script src="js/ui/StudioPanel.js"></script>
+  <script src="js/ui/SettingsPanel.js"></script>
+  <script src="js/ui/TextButton.js"></script>
+  <script src="js/ui/IconButton.js"></script>
+  <script src="js/ui/Badge.js"></script>
+  <script src="js/ui/Effects.js"></script>
+  <script src="js/ui/ListenLink.js"></script>
+  <script src="js/ui/CinemaFX.js"></script>
+  <script src="js/ui/Spotlights.js"></script>
+  <script src="js/ui/BulbRing.js"></script>
+  <script src="js/ui/Backdrop.js"></script>
+  <script src="js/ui/LightRig.js"></script>
+  <script src="js/ui/Speaker.js"></script>
+  <script src="js/ui/InstrumentPicker.js"></script>
+  <script src="js/ui/Ambience.js"></script>
+  <script src="js/ui/Stage.js"></script>
+  <script src="js/ui/HypeText.js"></script>
+  <script src="js/ui/Clapperboard.js"></script>
+  <script src="js/ui/Marquee.js"></script>
+  <script src="js/ui/HowToStrip.js"></script>
+  <script src="js/ui/ResumeCard.js"></script>
+  <script src="js/ui/SpinWheel.js"></script>
+  <script src="js/ui/HudBar.js"></script>
+  <script src="js/ui/TimerBar.js"></script>
+  <script src="js/ui/ClueCard.js"></script>
+  <script src="js/ui/LetterBoard.js"></script>
+  <script src="js/ui/KeyPad.js"></script>
+  <script src="js/scenes/BaseScene.js"></script>
+  <script src="js/scenes/BootScene.js"></script>
+  <script src="js/scenes/PreloadScene.js"></script>
+  <script src="js/scenes/EntryScene.js"></script>
+  <script src="js/scenes/MenuScene.js"></script>
+  <script src="js/scenes/SpinScene.js"></script>
+  <script src="js/scenes/PuzzleScene.js"></script>
+  <script src="js/scenes/WrapScene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
